@@ -1,0 +1,4 @@
+rootProject.name = 'pa05-template'
+include 'src:untitled'
+findProject(':src:untitled')?.name = 'untitled'
+

@@ -1,0 +1,17 @@
+.dark-theme, .dark-theme * {
+    -fx-font-family: Georgia;
+    -fx-background-color: #5A5A5A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.light-theme, .light-theme * {
+    -fx-font-family: Kai;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #5A5A5A;
+}
+
+.sakura-theme, .sakura-theme * {
+    -fx-font-family: Gujarati MT;
+    -fx-background-color: #FFC0CB;
+    -fx-text-fill: #FFFFFF;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane fx:id="rootEvent" prefHeight="287.0" prefWidth="410.0">
+      <children>
+         <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="289.0" prefWidth="468.0">
+            <children>
+               <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="301.0" prefWidth="468.0">
+                  <children>
+                     <HBox prefHeight="100.0" prefWidth="200.0">
+                        <children>
+                           <ChoiceBox fx:id="eventDayOfWeek" prefWidth="150.0" />
+                           <TextField fx:id="eventErrorDisplay" maxWidth="-Infinity" prefHeight="26.0" prefWidth="312.0" />
+                        </children>
+                     </HBox>
+                     <TextField fx:id="eventName" promptText="Name :">
+                        <VBox.margin>
+                           <Insets top="15.0" />
+                        </VBox.margin>
+                     </TextField>
+                     <TextField fx:id="eventDescription" promptText="Description (optional) :">
+                        <VBox.margin>
+                           <Insets top="15.0" />
+                        </VBox.margin>
+                     </TextField>
+                     <TextField fx:id="eventStartHour" promptText="Start Hour (24 hour time)" />
+                     <TextField fx:id="eventStartMinute" promptText="Start Minute" />
+                     <TextField fx:id="eventDuration" promptText="Duration (minutes): ">
+                        <VBox.margin>
+                           <Insets top="15.0" />
+                        </VBox.margin>
+                     </TextField>
+                     <VBox alignment="CENTER" prefHeight="56.0" prefWidth="468.0">
+                        <children>
+                           <Button fx:id="submitEvent" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Submit" />
+                        </children>
+                     </VBox>
+                  </children>
+               </VBox>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>
